@@ -29,4 +29,8 @@ function create-node-instance-template {
     "gci-update-strategy=${KUBE_TEMP}/gci-update.txt" \
     "gci-ensure-gke-docker=${KUBE_TEMP}/gci-ensure-gke-docker.txt" \
     "gci-docker-version=${KUBE_TEMP}/gci-docker-version.txt"
+
+  echo '************************'
+  echo "configure-sh=${KUBE_ROOT}/cluster/gce/gci/configure.sh"
+  echo '************************'
 }
