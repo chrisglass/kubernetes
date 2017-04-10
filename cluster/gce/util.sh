@@ -51,7 +51,7 @@ elif [[ "${MASTER_OS_DISTRIBUTION}" == "ubuntu" ]]; then
 fi
 
 # Sets node image based on the specified os distro. Currently this function only
-# supports gci and debian.
+# supports gci, debian, and ubuntu.
 function set-node-image() {
   if [[ "${NODE_OS_DISTRIBUTION}" == "gci" ]]; then
     # If the node image is not set, we use the latest GCI image.
