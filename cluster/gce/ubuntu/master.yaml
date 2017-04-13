@@ -114,6 +114,7 @@ write_files:
 
       [Install]
       WantedBy=multi-user.target
+      After=docker.service
 
 runcmd:
  - systemctl daemon-reload
